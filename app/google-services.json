@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1009517077743",
+    "firebase_url": "https://frutamadura-d944d.firebaseio.com",
+    "project_id": "frutamadura-d944d",
+    "storage_bucket": "frutamadura-d944d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009517077743:android:78206662962722209b271a",
+        "android_client_info": {
+          "package_name": "com.example.firsttime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1009517077743-nh8oqv91f0c4nlk4k1alnb7cl7sd8tmn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firsttime",
+            "certificate_hash": "dd6fd51dc8149b77be74e6fb8892b996dac0c557"
+          }
+        },
+        {
+          "client_id": "1009517077743-2hn6thsq4scvcqkt2s9700dt6277rd3i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALjvNzStXKfcKKk_0MY1wnoGAlE-hBuOg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1009517077743-2hn6thsq4scvcqkt2s9700dt6277rd3i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

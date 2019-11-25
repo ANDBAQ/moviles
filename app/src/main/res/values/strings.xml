@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FrutaMadura</string>
+    <string name="action_settings"> </string>
+    <string name="title_activity_promoactivity">Promos</string>
+    <string name="btnScan">Escanea</string>
+    <string name="btnRecetas">Recetas</string>
+    <string name="btnPromos">Promos</string>
+    <string name="btnAbout">Sobre nsotros</string>
+    <string name="title_activity_recetas">Recetas</string>
+    <string name="tuubica">Cerca a tu Ubicación</string>
+    <string name="frutas">Frutas</string>
+    <string name="Verduras">Verduras</string>
+    <string name="title_activity_scanima">scanima</string>
+    <string name="verdes">Verde</string>
+    <string name="Madura">Madura</string>
+    <string name="danoni">Dañada</string>
+    <string name="escan">Escanea la Fruta o Verdura </string>
+
+</resources>

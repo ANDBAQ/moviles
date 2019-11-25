@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scanimages"
+    android:visibility="visible"
+    tools:context=".scanima"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:showIn="@layout/activity_scanima">
+    <android.View.SurfaceView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:focusable="auto"
+        android:id="@+id/cameraPreview"/>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="370dp"
+        android:layout_height="190dp"
+        android:layout_above="@+id/buttonpromos"
+        android:layout_below="@+id/cameraPreview"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginBottom="106dp"
+        android:text="@string/escan"
+        app:layout_constraintEnd_toEndOf="@id/cameraPreview"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cameraPreview" />
+
+    <Button
+        android:id="@+id/buttonRecetas"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="46dp"
+        android:layout_toEndOf="@+id/buttonpromos"
+        android:text="@string/btnRecetas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonpromos"
+        app:layout_constraintTop_toTopOf="@+id/buttonpromos"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/buttonpromos"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="44dp"
+        android:text="@string/btnPromos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonRecetas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
+</RelativeLayout>
