@@ -30,6 +30,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".splashactivity">
             <intent-filter>
+
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -37,6 +38,6 @@
         </activity>
         <activity android:name=".MainActivity" />
 
-    <meta-data android:name="com.google.android.gms.vision" android:value="barcode"/>
+    <meta-data android:name="com.google.firebase.ml.vision.DEPENDENCIES" android:value="label"/>
     </application>
 </manifest>
